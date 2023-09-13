@@ -1,0 +1,79 @@
+{
+  "dependencies": {
+    "com.vrchat.udonsharp": {
+      "version": "1.1.9"
+    },
+    "com.vrchat.clientsim": {
+      "version": "1.2.7"
+    },
+    "com.vrchat.base": {
+      "version": "^3.1.x"
+    },
+    "com.vrchat.worlds": {
+      "version": "^3.1.x"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.21"
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.2.1"
+    },
+    "com.llealloo.audiolink": {
+      "version": "0.3.2"
+    },
+    "sh.orels.shaders": {
+      "version": "6.2.0"
+    }
+  },
+  "locked": {
+    "com.vrchat.udonsharp": {
+      "version": "1.1.9",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.1.x"
+      }
+    },
+    "com.vrchat.worlds": {
+      "version": "3.3.0",
+      "dependencies": {
+        "com.vrchat.base": "3.3.0"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.3.0",
+      "dependencies": {}
+    },
+    "com.vrchat.clientsim": {
+      "version": "1.2.7",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.2.2"
+      }
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.21",
+      "dependencies": {}
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.2.1",
+      "dependencies": {}
+    },
+    "com.llealloo.audiolink": {
+      "version": "0.3.2",
+      "dependencies": {}
+    },
+    "sh.orels.shaders": {
+      "version": "6.2.0",
+      "dependencies": {
+        "sh.orels.shaders.generator": "^6.1.0",
+        "sh.orels.shaders.inspector": "^6.1.0"
+      }
+    },
+    "sh.orels.shaders.generator": {
+      "version": "6.2.0",
+      "dependencies": {}
+    },
+    "sh.orels.shaders.inspector": {
+      "version": "6.2.1",
+      "dependencies": {}
+    }
+  }
+}
